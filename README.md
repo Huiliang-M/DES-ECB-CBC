@@ -26,3 +26,18 @@ int[] CBC(String plaintext, String key, String IV) <br/>
      0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0,
      0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0,
      1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1} <br/>
+     
+(2) ECB Input: <br/>
+     String plaintext = “I LOVE SECURITY”;<br/>
+     String key = “ABCDEFGH”;<br/>
+     Output:<br/>
+     Int[] ciphertext = {198, 252, 213, 112, 106, 165, 23, 145,
+     29, 52, 125, 61, 85, 217, 102, 155};
+      <br/>
+     Input:<br/>
+     String plaintext = “GO GATORS!”<br/>
+     String key = “ABCDEFGH”<br/>
+     Output:<br/>
+     Int[] ciphertext = {86, 100, 180, 248, 126, 142, 38, 5, 255,
+     224, 149, 93, 149, 189, 237, 2};<br/>
+     <br/>
