@@ -1,8 +1,6 @@
 /*
 
-    Author:         Huiliang Huang
-    Student ID:     916156961
-    CSC 650- project 1
+    Author:         Huiliang
     Crypto.java
  
 */
