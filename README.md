@@ -7,3 +7,12 @@
 int[] DES(int[] plaintext, int[] key) <br/>
 int[] ECB(String plaintext, String key) <br/>
 int[] CBC(String plaintext, String key, String IV) <br/>
+
+# Test data
+(1) DES <br/>
+  Input:
+  int[] plaintext = { 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0,
+     0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1,
+     0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1,
+     1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1}; <br/>
+     
